@@ -20,7 +20,7 @@ namespace WordCount
             }
         }
 
-        public static IDictionary<string, int> GetWordWithCountFromFile(string inputFile)
+        public static IDictionary<string, int> GetWordCountFromFile(string inputFile)
         {
             char separator = ' ';
             var wordCountDictionary = new SortedDictionary<string, int>();

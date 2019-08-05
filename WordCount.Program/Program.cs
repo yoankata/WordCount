@@ -1,5 +1,4 @@
-﻿using System;
-using static WordCount.Util;
+﻿using static WordCount.Util;
 
 namespace WordCount
 {
@@ -9,7 +8,7 @@ namespace WordCount
         {
             var inputFile = GetValidInputFileFromUser();
 
-            var wordCountDictionary = GetWordWithCountFromFile(inputFile);
+            var wordCountDictionary = GetWordCountFromFile(inputFile);
             
             WriteWordCountToConsole(wordCountDictionary);
         }
