@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.dtbcache
+/WordCount.Program/bin/Debug/netcoreapp2.2
+/WordCount.Program/obj/Debug/netcoreapp2.2
+/WordCount.Program/obj
+*.suo
+/WordCount.Test/bin/Debug/netcoreapp2.2
+/WordCount.Test/obj
+/WordCount.Program/.vs/WordCount/v16/Server/sqlite3/storage.ide-wal
+/WordCount.Program/.vs/WordCount/v16/Server/sqlite3/storage.ide-shm
+/WordCount.Program/.vs/WordCount/v16/Server/sqlite3/storage.ide
+/WordCount.Program/.vs/WordCount/v16/Server/sqlite3/db.lock
